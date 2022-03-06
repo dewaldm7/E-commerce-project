@@ -1,0 +1,124 @@
+body {
+   
+    background-image: url(../img/camo50.png);
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+ 
+  }
+
+
+h1 {
+    font-weight:700;
+}
+
+p {
+  font-weight: bolder;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+/*added a filter to my main image*/
+.main-image {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+   margin-bottom: 30px;
+   border: solid rgba(0, 0, 0, .10);
+  filter:contrast(75%);
+}
+/*added a filter to my secondary images*/
+.secondary-image {
+  border: solid rgba(0, 0, 0, .10);
+   filter:grayscale(70%) contrast(75%); 
+
+}
+
+/*used the background-image property and linear-gradient value to style the background colour in my jumbotron */
+.jumbotron {
+    background-image: linear-gradient(to right, rgba(120, 126, 130),
+ rgba(17, 17, 18,0.8));
+  }
+    
+
+/*social media link icons on my contact page*/
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+   
+    color: dimgray;
+  } 
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .input-container {
+    display: -ms-flexbox; 
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: black;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid black;}
+  
+  /* Styling for the submit button at the bottom of my products page */
+  .btn {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  } 
+/*styling for the testimonials section on my about us page*/
+  .kettlebell-bullets , .testimonial {
+    color: rgba(143, 9, 9);
+  } 
+
+
+  /*styling for the footer at the bottom of all my pages*/
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin-top: 50px;}
+
+  /*dropdown styling on about page*/  
+    #panel, #flip {
+      padding: 5px;
+      text-align: center;
+      background-color: gray;
+      border: solid 1px darkgray;
+      cursor: pointer;
+    }
+    
+    #panel {
+      padding: 50px;
+      display: none;
+    }
